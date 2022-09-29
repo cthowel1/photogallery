@@ -1,0 +1,173 @@
+html {
+  font-family: Arial;
+  background-color:#000000;
+}
+body {
+  background:#FFFFFF;
+  width:1310px;
+}
+header {
+  margin: auto;
+  background-color:black;
+  display:block;
+}
+h1 {
+  color:#007D7B;
+  margin:auto;
+}
+nav {
+  float:right;
+  margin-top:-95px;
+  color:white;
+}
+nav li{
+  display:inline-block;
+  margin:auto;
+  padding:35%;
+}
+nav h2 {
+  visibility:hidden;
+}
+
+[href="top"] {
+  position:fixed;
+  bottom:0px;
+  right:0px;
+  color:white;
+  padding:5px 5px 5px 5px;
+  background-color:#007D7B;
+}
+[href="top"]:hover {
+  color:#007D7B;
+  padding:5px 5px 5px 5px;
+  border:30px;
+  background-color:white;
+}
+[href="one"]:hover {
+  color:#007D7B;
+}
+p {
+  margin: 40px;
+ justify-content:right;
+}
+about {
+  float:right;
+  margin:-50px;
+}
+[href="tk"]{
+ width: 850px;
+ height: 420px;
+  float: left;
+  margin: 0%;
+}
+figure{
+  margin:auto;
+}
+.cgh{
+  width:420px;
+  height:281px;
+  margin:auto;
+  overflow: auto;
+}
+.bigi{
+  width:1310px;
+  height:630px;
+  margin:auto;
+  overflow: auto;
+}
+.mrs{
+  width:420px;
+  height:281px;
+  margin:auto;
+  overflow: auto;
+}
+.uuw{
+  width:420px;
+  height:281px;
+  margin:auto;
+  overflow: auto;
+} 
+
+figcaption.cir {
+  color:#ffffff;
+  font-size:16px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+figcaption.himu {
+  color:#000;
+  font-size:16px;
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+figcaption.guw {
+  color:#000;
+  font-size:16px;
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+figcaption.s {
+  color:#ffffff;
+  font-size:16px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+figcaption.i {
+  color:#000;
+  font-size:16px;
+  font-family:Arial, Helvetica, sans-serif; 
+  display: flex;
+}
+
+.contact h2 {
+  background-color: black;
+  color:#ffffff;
+  font-size:40px;
+  text-align:center;
+  margin:-80px;
+}
+h3{
+  font-size:20px;
+  color:#ffffff;
+  background-color:black;
+  text-align:center;
+  margin:-40px;
+}
+h4{
+  visibility: hidden;
+}
+form{
+  background-color: black;
+  color:#ffffff;
+  display:flex;
+  margin-top: 0%;
+ 
+}
+input::placeholder {
+  font-size:16px;
+  color:#007D7B;
+  padding: 10px 5px 5px 10px;
+  text-align:center;
+  
+}
+button{
+  border-radius: 12px;
+  padding:10px 85px 8px 85px;
+  margin:15px;
+  background-color:#007D7B;
+  font-size:16px;
+  color:#ffffff;
+  font-weight:bold;
+  text-align:center;
+  float:none
+}
+footer{
+  font-size:16px;
+  color:#ffffff;
+  text-align:center;
+  background-color:black;
+}
